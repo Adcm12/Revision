@@ -2,3 +2,5 @@
 
 nome = 'Adrian'
 nome = 'David'
+
+print(nome)
