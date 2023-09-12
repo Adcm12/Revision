@@ -35,6 +35,7 @@ cond = int(input('''
 
 if cond == 1:
     print("El nombre del alumno es",alumno["Nombre"])
+    
 elif cond == 2:
     print ("La edad de ",alumno['Nome'],"es:",alumno['Idade'])
 elif cond ==3:
