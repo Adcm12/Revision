@@ -1,7 +1,7 @@
 #Polimorfismo 
 
 # e utilizado para obter resultados cuantitativos com variaveis con dados incalculables
-
+# Cuantifica una string
 nome = 'Adrian'
 teste = '*'*10
 

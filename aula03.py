@@ -2,6 +2,8 @@
 
 validador = True
 
+# Operadores relacionesles: a traves de simbolos hace comparaciones
+
 idade = int(input('Digite a sua idade >> '))
 
 validador = (idade == 18)
