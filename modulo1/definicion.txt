@@ -1,0 +1,2 @@
+papiro
+codigo e ambientacion con python estruturado primero paradgma

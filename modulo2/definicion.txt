@@ -1,0 +1,7 @@
+livro
+python funcional
+segundo paradigma
+o que chama uma funcao
+
+uma funcao e um bloco de codio que pode ser chamado conforme a necesidade 
+este bloco de codigo tem a caracteristica de responsabiliadade unica
