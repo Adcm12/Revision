@@ -12,9 +12,6 @@ def multiplicacao(a:int, b:int):
 
 def division(a:int, b:int):
     division = a/b
-    return division
+    return round(division, 2)
 
-def soma(a:float, b:float):
-    soma = a+b
-    return soma
 
