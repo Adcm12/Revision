@@ -1,7 +1,7 @@
 def create(a):
 
     with open('pessoas.txt', 'a') as arquivo:
-        arquivo.write(f'{a}\n')
+        arquivo.write(f'{a.capitalize()}\n')
 
 def read():
 
@@ -16,7 +16,7 @@ def read():
     return nomes
 
 def buscar_nome(nome):
-    
+
     nome_encontrado = []
 
     with open('pessoas.txt', 'r') as arquivo:
@@ -30,10 +30,10 @@ def buscar_nome(nome):
                     nome_encontrado.append(i)
 
     if nome_encontrado:
-        print(f'O nome esta na lista')
+        print(f'O nome {nome} esta na lista')
     
     else:
-        print('Nome no esta na lista')
+        print(f'Nome {nome} no esta na lista')
                       
                  
                 

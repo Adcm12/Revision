@@ -1,12 +1,12 @@
 from controller import create, read, buscar_nome
 
-# a = input('Digite su nome >> ')
+a = input('Digite su nome >> ')
 
-# create(a)
+create(a)
 
 print(read())
 
-nome = input('Digite o nome que vai procurar >> ')
+a
 
-buscar_nome(nome)
+buscar_nome(input('Digite o nome que vai procurar >> ').capitalize())
 
