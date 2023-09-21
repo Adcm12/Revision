@@ -1,7 +1,7 @@
-def create(a):
+def create(cliente):
 
     with open('pessoas.txt', 'a') as arquivo:
-        arquivo.write(f'{a.capitalize()}\n')
+        arquivo.write(f'{cliente.capitalize()}\n')
 
 def read():
 
@@ -34,14 +34,5 @@ def buscar_nome(nome):
     
     else:
         print(f'Nome {nome} no esta na lista')
-                      
-                 
-                
-
-
-
-    
-
-
 
 

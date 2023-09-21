@@ -1,0 +1,3 @@
+3 paradigma Orientacion a Objetos
+
+orientacion a objetos: ela e baseada toda em cima das caracteristicas de una classe
