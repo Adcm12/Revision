@@ -58,28 +58,39 @@ class Telefone:
         self.__Samsung = samsung
    
     @apple.setter
-    def apple(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    def apple(self, apple):
+        self.__Apple = apple
    
-    @xiaomi.setter
-    def xiaomi(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    @nokia.setter
+    def nokia(self, nokia):
+        self.__Nokia = nokia
    
-    @xiaomi.setter
-    def xiaomi(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    @lg.setter
+    def lg(self, lg):
+        self.__Lg = lg
    
-    @xiaomi.setter
-    def xiaomi(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    @blu.setter
+    def blu(self, blu):
+        self.__Blu = blu
    
-    @xiaomi.setter
-    def xiaomi(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    @blackberry.setter
+    def blackberry(self, blackberry):
+        self.__Blackberry = blackberry
    
-    @xiaomi.setter
-    def xiaomi(self, xiaomi):
-        self.__Xiaomi = xiaomi
+    @asus.setter
+    def asus(self, asus):
+        self.__Asus = asus
    
+    def __str__(self):
+        return f'''\nModelo Xiaomi : {self.xiaomi} 
+            \nModelo Samsung : {self.samsung} 
+            \nModelo Apple : {self.apple} 
+            \nModelo Nokia : {self.nokia}
+            \nModelo Lg :  {self.lg} 
+            \nModelo Blue : {self.blu} 
+            \nModelo Blackberry : {self.blackberry} 
+            \nModelo Asus : {self.asus}
+'''
+    
 
         
