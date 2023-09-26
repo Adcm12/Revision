@@ -1,3 +1,10 @@
 3 paradigma Orientacion a Objetos
 
 orientacion a objetos: ela e baseada toda em cima das caracteristicas de una classe
+
+monolito:
+um monolito e quando eu tenho centralizado em un unico projeto nosso front end e nosso backend
+
+micro servicio:
+o microserviço e um sistema que se divide em varios projetos, cada um com sua propria responsabilidade
+
