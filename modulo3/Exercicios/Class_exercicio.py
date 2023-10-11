@@ -1,6 +1,6 @@
 class Vehiculo:
 
-    __Modelo = 'Hibrido'
+    __Modelo = 'Hibrido' #Un constructor es un metodo de responsabilidad unica, que permite inserir valores en los obejtos de la clase
 
     def __init__(self, cor, pineo, freio, combustivel):
 

@@ -6,6 +6,7 @@ nombre: El nombre de la tarea.
 descripcion: Una descripción de la tarea.
 fecha_inicio: La fecha de inicio de la tarea.
 fecha_fin: La fecha de finalización de la tarea.
+
 Crea un método crear_tarea() que cree una nueva instancia de la clase Tarea.
 
 Crea un método listar_tareas() que liste todas las tareas creadas.
